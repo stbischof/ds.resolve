@@ -1,0 +1,12 @@
+-runrequires: bnd.identity;id='ds.resolve.req'
+-runfw: org.apache.felix.framework;version='[6.0.1,6.0.1]'
+-runee: JavaSE-1.8
+
+
+-resolve.effective: resolve,active
+-runbundles: \
+	ds.resolve.cap;version=snapshot,\
+	ds.resolve.capfora;version=snapshot,\
+	ds.resolve.req;version=snapshot,\
+	org.apache.felix.scr;version='[2.1.0,2.1.1)',\
+	ds.resolve.b;version=snapshot

@@ -1,0 +1,5 @@
+-buildpath: \
+	osgi.annotation,\
+	osgi.cmpn,\
+	osgi.core
+-sub: *.bnd
